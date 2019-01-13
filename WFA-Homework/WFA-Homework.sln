@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TicketManager", "TicketMana
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calculator", "Calculator\Calculator.csproj", "{2BCD7B4A-600B-4DA8-A16C-7203A0AD8F81}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "HomeWork-Week1", "HomeWork-Week1", "{FFAE7EA4-933A-40CA-A222-D544FF18D06B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,6 +32,11 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{CB314D14-1787-4589-AA47-D4E072518D72} = {FFAE7EA4-933A-40CA-A222-D544FF18D06B}
+		{366AB1E5-6355-4191-B707-DB8AEF0DCE3E} = {FFAE7EA4-933A-40CA-A222-D544FF18D06B}
+		{2BCD7B4A-600B-4DA8-A16C-7203A0AD8F81} = {FFAE7EA4-933A-40CA-A222-D544FF18D06B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {97E9C557-5CE3-4BCF-ADF7-596E8C3F3E88}
