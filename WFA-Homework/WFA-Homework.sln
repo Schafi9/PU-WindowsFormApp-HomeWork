@@ -21,6 +21,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rock-Scissors-Paper", "Rock
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GuessTheNumber", "GuessTheNumber\GuessTheNumber.csproj", "{94731047-CFFC-48BC-B5E4-1F0F2306A937}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Week4", "Week4", "{45B62B4F-FAFB-459B-8086-899245326CDB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyCollectionManager", "MyCollectionManager\MyCollectionManager.csproj", "{93E94C21-2B9D-4F0E-AB19-EEE6C24ED37D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +55,10 @@ Global
 		{94731047-CFFC-48BC-B5E4-1F0F2306A937}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{94731047-CFFC-48BC-B5E4-1F0F2306A937}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{94731047-CFFC-48BC-B5E4-1F0F2306A937}.Release|Any CPU.Build.0 = Release|Any CPU
+		{93E94C21-2B9D-4F0E-AB19-EEE6C24ED37D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{93E94C21-2B9D-4F0E-AB19-EEE6C24ED37D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{93E94C21-2B9D-4F0E-AB19-EEE6C24ED37D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{93E94C21-2B9D-4F0E-AB19-EEE6C24ED37D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -62,6 +70,7 @@ Global
 		{221BE850-ECDC-44D5-A0D3-C9AFC2AF2546} = {FBEE9D67-E250-4CE8-883A-E0CE2D657C21}
 		{165A5FE3-A244-4CD3-AF01-03653823975E} = {308F3FD2-F5FD-4536-8B21-6F75D0878535}
 		{94731047-CFFC-48BC-B5E4-1F0F2306A937} = {308F3FD2-F5FD-4536-8B21-6F75D0878535}
+		{93E94C21-2B9D-4F0E-AB19-EEE6C24ED37D} = {45B62B4F-FAFB-459B-8086-899245326CDB}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {97E9C557-5CE3-4BCF-ADF7-596E8C3F3E88}
