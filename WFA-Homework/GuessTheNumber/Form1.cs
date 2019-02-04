@@ -59,10 +59,10 @@ namespace GuessTheNumber
             }
         }
 
-        private void tbUserNumber_TextChanged(object sender, EventArgs e)
+        private void tbUserNumber_TextChanged(object sender, KeyEventArgs e)
         {
-            //if (e.KeyCode == Keys.Enter)
-          //  {
+            if (e.KeyCode == Keys.Enter)
+            {
                 try
                 {
                     userNumber = Convert.ToInt32(tbUserNumber.Text);
@@ -78,7 +78,7 @@ namespace GuessTheNumber
                         {
                             pbPoints.Image = GuessTheNumber.Properties.Resources.no_translate_detected_318_37605;
                         }
-                       // tbUserNumber.Enabled = false;
+                        tbUserNumber.Enabled = false;
                     }
                     else if (number > userNumber)
                     {
@@ -93,7 +93,7 @@ namespace GuessTheNumber
                 {
                     MessageBox.Show("Nice try!");
                 }
-          //  }
+            }
         }
     
     }
